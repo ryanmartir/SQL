@@ -1,0 +1,21 @@
+CREATE TABLE store (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER,size INTEGER, price INTEGER);
+INSERT INTO store VALUES(1, "jordan 1", 100,9,120);
+INSERT INTO store VALUES(2, "jordan 2", 100,10,120);
+INSERT INTO store VALUES(3, "jordan 3", 100, 10, 120);
+INSERT INTO store VALUES(4, "jordan 4", 100, 10,200);
+INSERT INTO store VALUES(5, "jordan 5", 100,10,200);
+INSERT INTO store VALUES(6, "jordan 6",100,10,120);
+INSERT INTO store VALUES(7, "jordan 7",100,10,120);
+INSERT INTO store VALUES(8, "jordan 8",100,10,120);
+INSERT INTO store VALUES(9, "jordan 9",100,10,120);
+INSERT INTO store VALUES(10, "jordn 10",100,10,120);
+INSERT INTO store VALUES(11, "jordan 11",100,10,200);
+INSERT INTO store VALUES(12, "jordan 12",100,10,200);
+INSERT INTO store VALUES(13, "jordan 13",100,10,200);
+INSERT INTO store VALUES(14, "jordan 13",100,10,120);
+INSERT INTO store VALUES(15, "jordan 15",100,10,120);
+
+--display the database ordered by price. 
+SELECT * FROM store; 
+ORDER BY price desc; 
+
